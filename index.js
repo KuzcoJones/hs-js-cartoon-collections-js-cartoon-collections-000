@@ -12,14 +12,13 @@ function dwarfRollCall(dwarves) {
 }
 
 function wordsWithB(words){
-  bWords = [];
+  let bWords = [];
   for( let i = 0; i < words.length; i++){
-    if (words[i] == ){
-      
+    if (words[i].startsWith('b') === true ){
+      bWords.push(words[i]);
     }
   }
-  if (words[0])
-  return words;
+  return bWords;
 }
 function summonCaptainPlanet(planeteerCalls){
  for ( let i = 0; i <= 2 ; i++) {
