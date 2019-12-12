@@ -36,8 +36,8 @@ describe("longPlaneteerCalls", function() {
 
 describe("findTheCheese", function() {
       it("returns the first element of the array that is cheese", function() {
-        var cheddarCheese = ["banana", "cheddar", "sock"];
-        expect(findTheCheese(cheddarCheese)).toEqual("cheddar");
+        var cheddarCheese = ["banana", "camambert", "sock"];
+        expect(findTheCheese(cheddarCheese)).toEqual("camambert");
       });
 
       it("returns 'no cheese!' if the array does not contain a type of cheese", function() {
